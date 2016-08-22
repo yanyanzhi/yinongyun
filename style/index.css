@@ -1,0 +1,500 @@
+.container{
+    width: 100%;
+}
+/*------------------------------header区域  start----------------------------*/
+.header{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    background: #424953;
+}
+
+.header .header-in{
+    width: 1200px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.header .header-in p{
+    float: left;
+}
+
+.header .header-in .r{
+    float: right;
+}
+.header .header-in .r .hl{
+    height: 20px;
+    margin: 0 30px;
+    border-right: 1px solid #fff;
+}
+.header .header-in .r a{
+    color: #fff;
+    font-size: 16px;
+}
+
+/*------------------------------header区域  end----------------------------*/
+/*------------------------------nav区域  start----------------------------*/
+.nav{
+    width: 100%;
+    height: 118px;
+}
+.nav .nav-in{
+    width: 1200px;
+    margin: 0 auto;
+    height: 118px;
+}
+.nav .nav-in .l{
+    float: left;
+    width: 600px;
+}
+.nav .nav-in .nl{
+    width: 495px;
+    height: 80px;
+    background: url("../images/lg.png") no-repeat;
+    background-size: 75%;
+    margin: 24px 0 13px;
+    float: left;
+}
+.nav .nav-in .nr{
+    width: 600px;
+    float: left;
+    height: 118px;
+    line-height: 115px;
+    font-size: 18px;
+    color: #999999;
+}
+.nav .nav-in .nr .nn{
+    float: right;
+}
+.nav .nav-in .nr li{
+    float: left;
+    margin-left: 32px;
+    padding: 0 10px;
+}
+.nav .nav-in .nr li.visible{
+    margin-right: 16px;
+}
+.nav .nav-in .nr li.vb{
+    color:#16cff1;
+    border-bottom: 3px solid #16cff1;
+}
+
+/*------------------------------nav区域  end----------------------------*/
+/*------------------------------swiper-container区域  start----------------------------*/
+.swiper-container{
+    width: 100%;
+    height: 640px;
+}
+.swiper-pagination-bullet-active{
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+}
+.swiper-pagination-bullet {
+    background: #8b9eaf;
+}
+/*------------------------------swiper-container区域  end----------------------------*/
+/*------------------------------icons区域  start----------------------------*/
+
+.c-out{
+    position: relative;
+    height: 310px;
+}
+.cont{
+    position: absolute;
+}
+.icons{
+    width: 100%;
+    height: 640px;
+    overflow: hidden;
+}
+.icons .ic{
+    width: 1200px;
+    margin:  0 auto;
+    height: 640px;
+
+}
+.icons .ic ul{
+    width: 100%;
+    height: 320px;
+}
+.icons .ic .ict li{
+    padding-top: 54px;
+}
+
+.gg{
+    display: block;
+    position: absolute;
+}
+.gz{
+    opacity: 1;
+    transition: all .6s ease;
+}
+.none{
+    transition: all .6s ease;
+    opacity: 0;
+}
+
+.icons .ic ul.icb .icv .icte{
+    color: #333;
+    opacity: 1;
+}
+.icons .ic ul.icb .icv{
+    position: relative;
+}
+.icons .ic ul.icb .icv .po{
+    position: absolute;
+    left: 50px;
+    top: 44px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+}
+.icons .ic ul li a .icte{
+    margin-top: 27px;
+    color: #333;
+    font-size: 20px;
+}
+.icons .ic ul.icb .icv .icvb{
+    color: #16cff1;
+    opacity: 0;
+}
+.icons .ic ul li{
+    float: left;
+}
+.icons .ic ul li a{
+    text-align: center;
+}
+
+.icons .ic ul li.icj{
+    padding:54px 178px 0;
+}
+.icons .ic ul li.icjr{
+    padding-right: 178px;
+}
+.icons .ic ul li.icr{
+    float: right;
+}
+
+/*------------------------------icons区域  end----------------------------*/
+/*------------------------------banner区域  start----------------------------*/
+.banner{
+    width: 100%;
+    height: 640px;
+    background: url("../images/zhihuinongye-bg.png") no-repeat;
+}
+.banner .banner-in{
+    width: 1200px;
+    height: 640px;
+    margin: 0 auto;
+    color: rgba(255,255,255,0.8);
+}
+.banner .banner-in a{
+    width: 1200px;
+    height: 640px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: rgba(255,255,255,0.8);
+}
+.banner .banner-in h3{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+
+}
+.banner .banner-in .bl{
+    width: 600px;
+    float: left;
+}
+.banner .banner-in .bl p{
+    margin-top: 55px;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+.banner .banner-in .bl ul li a{
+    font-size: 28px;
+}
+.banner .banner-in .bl ul li{
+    height: 35px;
+}
+.banner .banner-in .bl ul li.sx{
+    margin: 60px 0;
+}
+.banner .banner-in .bl ul li img {
+    margin-top: -10px;
+    margin-right: 10px;
+}
+.banner .banner-in .bl .lj{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #16cff1;
+    border-radius: 5px;
+    line-height: 50px;
+    box-shadow: 0 0 3px #333;
+    text-align: center;
+    color: #fff;
+    float: left;
+    margin-top: 50px;
+}
+.banner .banner-in .br{
+    width: 600px;
+    float: left;
+}
+.banner .banner-in .br img{
+    display: block;
+    margin-top: 40px;
+    float: right;
+    margin-right: 30px;
+}
+/*------------------------------banner区域  end----------------------------*/
+/*------------------------------tj区域  end----------------------------*/
+.tj{
+    width: 100%;
+    height: 640px;
+}
+.tj .tjb{
+    width: 1200px;
+    height: 640px;
+    margin: 0 auto;
+}
+h3{
+    padding-top: 30px;
+    font-size: 40px;
+    text-align: center;
+
+}
+.tj .tjb .bl{
+    width: 600px;
+    float: left;
+}
+.tj .tjb .bl img{
+    margin-top: 100px;
+    margin-left: 5px;
+}
+.tj .tjb .bl p{
+    font-size: 24px;
+    margin-left: 175px;
+    margin-top: 20px;
+}
+.tj .tjb .br{
+    width: 600px;
+    float: left;
+}
+.tj .tjb .br img{
+    display: block;
+    float: right;
+    margin-top: 100px;
+    margin-right: 5px;
+}
+.tj .tjb .br p{
+    float: left;
+    font-size: 24px;
+    margin-left: 255px;
+    margin-top: 20px;
+}
+.tj .tjb .br .zdnc{
+    float: right;
+    margin-top: 30px;
+    font-size: 16px;
+}
+/*------------------------------tj区域  end----------------------------*/
+/*------------------------------hd区域  start----------------------------*/
+.hd{
+    width: 100%;
+    height: 640px;
+    background-color: #f0f0f0;
+}
+.hd .hdzq{
+    width: 1200px;
+    height: 640px;
+    margin: 0 auto;
+}
+.hd .hdzq .hl{
+    float: left;
+    width: 800px;
+}
+.hd .hdzq .hl .ncts{
+    float: left;
+    width: 400px;
+}
+.hd .hdzq .hl .ncts p{
+    font-size: 24px;
+    margin-top: 60px;
+}
+.hd .hdzq .hl .ncts .tp{
+    display: block;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #16cff1;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 96px;
+}
+.hd .hdzq .hl .ncts img{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.hd .hdzq .hl .ncts.nctsb img{
+    margin-right: 50px;
+    float: right;
+}
+.hd .hdzq .hl .ncts.nctsb .tpc{
+    float: right;
+    margin-right: 82px;
+}
+.hd .hdzq .hl .ncts p.text{
+    margin-left: 120px;
+}
+.hd .hdzq .hr{
+    width: 400px;
+    float: left;
+}
+.hd .hdzq .hr  .jc{
+    font-size: 16px;
+}
+.hd .hdzq .hr .fqtp{
+    color: #16cff1;
+}
+.hd .hdzq .hr span{
+    margin-top: 60px;
+    float: left;
+    width: 125px;
+    font-size: 20px;
+    color: #333;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.hd .hdzq .hr .php{
+    float: left;
+    width: 258px;
+}
+.hd .hdzq .hr .php .pn{
+    margin-top: 30px;
+    font-size: 18px;
+    padding-left: 12px;
+    height: 35px;
+}
+.hd .hdzq .hr .php .pn li{
+    float: left;
+    padding: 10px 20px;
+    border-bottom: 2px solid #dedede;
+}
+.hd .hdzq .hr .php .pn li.pnv{
+    color: #16cff1;
+    border-bottom: 2px solid #16cff1;
+}
+.hd .hdzq .hr .php h1{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.hd .hdzq .hr .php .cont{
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.hd .hdzq .hr .php .cont .cont-in{
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.hd .hdzq .hr .php .cont .ctn{
+    width: 130px;
+    display: inline-block;
+    margin-bottom: 23px;
+}
+em img{
+    width: 17px;
+    height: 15px;
+    margin-right: 3px;
+}
+.hr .php .cont .ic{
+    display: inline-block;
+    width: 100px;
+}
+
+/*------------------------------hd区域  end----------------------------*/
+/*------------------------------newg区域  start----------------------------*/
+
+.newg{
+    width: 100%;
+    height: 640px;
+}
+.newg .news{
+    width: 1200px;
+    height: 640px;
+    margin: 0 auto;
+}
+.newg .news .bl{
+    width: 600px;
+    float: left;
+}
+.newg .news .bl .tt{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.newg .news .bl .tt li{
+    height: 33px;
+    line-height: 33px;
+}
+.newg .news .bl .tt li .n{
+    display: inline-block;
+    width: 426px;
+
+}
+.newg .news .bl .tt .scl{
+    color: #16cff1;
+}
+.newg .news .bl .nt{
+    font-size: 16px;
+}
+.newg .news .bl .nt a{
+
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+
+.newg .news .bl .nt ul li .date{
+    float: right;
+}
+.newg .news .br{
+    width: 600px;
+    float: left;
+}
+.newg .news .br .tz li{
+    padding-left: 20px;
+    height: 33px;
+    line-height: 33px;
+}
+.newg .news .br .tz li a{
+    width: 420px;
+}
+h5{
+    color: #333;
+    margin-bottom: 23px;
+    font-size: 24px;
+    margin-top: 70px;
+    text-align: center;
+}
+/*------------------------------newg区域  end----------------------------*/
+/*------------------------------footer区域  start----------------------------*/
+
+.footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background-color: #313946;
+}
+.footer .fp{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+/*------------------------------footer区域  end----------------------------*/

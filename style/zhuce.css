@@ -1,0 +1,352 @@
+.container{
+    background: url("../images/register_bg.png") no-repeat;
+    width: 100%;
+    height: 1080px;
+    /*background-size: 100%;*/
+    min-width: 800px;
+    position: relative;
+}
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+}
+/******************************************logo start*******************************************/
+.logo{
+    margin-top: 30px;
+}
+/******************************************logo end*******************************************/
+/******************************************bt end*******************************************/
+
+.bt{
+    width: 292px;
+    margin: 65px auto 67px;
+    height: 42px;
+}
+/******************************************bt end*******************************************/
+
+/******************************************jd start*******************************************/
+
+.jd{
+    width: 1073px;
+    padding-left: 127px;
+}
+.jd .sz{
+    float: left;
+}
+.jd .sz .line{
+    margin-left:-4px;
+}
+.jd .sz p{
+    color: rgba(255,255,255,9);
+    font-size: 18px;
+    margin-left: -24px;
+    margin-top: 18px;
+}
+.jd .sz p.text{
+    color: #01ffd2;
+}
+
+.jd .sz p.wc{
+    margin-left: -4px;
+}
+/******************************************jd end*******************************************/
+/******************************************massage start*******************************************/
+.massage{
+    box-sizing: border-box;
+}
+.ma{
+    margin-left: 400px;
+    margin-top: 80px;
+    width: 1200px;
+}
+.ma li{
+    margin-bottom: 32px;
+
+}
+/*.do{*/
+
+/*}*/
+.do .dov{
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+    position: relative;
+
+}
+.ck{
+    margin-top: 4px;
+    margin-left: 1px;
+}
+.do .dov .dw{
+    position: absolute;
+    top: 3px;
+}
+.mt{
+    display: inline-block;
+    color: #e9e9e9;
+    width: 80px;
+    text-align: right;
+    font-size: 16px;
+}
+.mz{
+    color: #e9e9e9;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.k{
+    margin-left: 20px;
+    width: 288px;
+    height: 32px;
+    padding-left: 10px;
+    border: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+::-webkit-input-placeholder{
+    color: #e9e9e9;
+    font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.hq{
+    display: inline-block;
+    text-align: center;
+    width: 90px;
+    height: 32px;
+    color: rgba(255,255,255,.8);
+    border: none;
+    outline:none;
+    line-height: 32px;
+    background-color: #ff9f00;
+    margin-left: -95px;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, sans-serif;
+}
+.btn{
+    border: none;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(255,255,255,.8);
+    border-radius: 5px;
+    background-color: #00a672;
+    font-size: 18px;
+    font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, sans-serif;
+    margin-left: 105px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.mu{
+    color: rgba(255,255,255,.8);
+    font-size: 16px;
+    margin-left: -30px;
+}
+.mtc{
+    float: left;
+    margin-right: 23px;
+}
+.xg{
+    margin-left: 135px;
+    /*float: left;*/
+}
+.scgw{
+    opacity: 1;
+}
+.checkbox{
+    width: 19px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background:url("../images/fuxuanhou.png")no-repeat;
+    margin-right: 2px;
+}
+.duoxuan{
+    margin-right: 20px;
+}
+.wzmb{
+    /*height: 21px;*/
+    /*line-height: 21px;*/
+
+}
+.danxuan{
+    width: 19px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+    position: relative;
+}
+.show{
+    opacity: 0;
+}
+.mtc .ck{
+
+    background:url("../images/fuxuan.png")no-repeat;
+    vertical-align: middle;
+}
+.mk{
+    float: left;
+}
+
+.p{
+    position: absolute;
+    top: 3px;
+
+}
+.mtc .wxz{
+    background:url("../images/wxz.png")no-repeat;
+    vertical-align: middle;
+}
+
+.mtext{
+    font-size: 16px;
+    color: rgba(255,255,255,.8);
+}
+/******************************************jb start*******************************************/
+.xl{
+    border: 1px solid #fff;
+    height: 34px;
+    background-color: transparent;
+    margin-right: 11px;
+    outline: none;
+    width: 90px;
+    font-size: 16px;
+    font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, sans-serif;
+    color: rgba(255,255,255,.8);;
+    text-align: center;
+
+}
+
+.xl option{
+    background-color: rgba(0,0,0,.1);
+    color: #333;
+}
+
+.sl{
+    float: left;
+    margin-right: 24px;
+    font-size: 16px;
+
+}
+.dx{
+    width: 12px;
+    height: 12px;
+    background:url("../images/danxuanhou.png")no-repeat;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.b{
+    margin-top: 43px;
+    margin-left: 0;
+}
+.sc{
+    opacity: 0;
+}
+.l{
+    margin-left: -20px;
+}
+.r{
+    margin-left: 100px;
+}
+
+/******************************************jb end*******************************************/
+/******************************************rz start*******************************************/
+.rz{
+    margin-left: 170px;
+    color: rgba(255,255,255,.8);
+    margin-top: 45px;
+}
+.rz img{
+    margin-left: 57px;
+    margin-right: 75px;
+}
+.rt{
+    line-height: 100px;
+}
+.g{
+    width: 150px;
+    margin-left: -72px;
+    /*position: relative;*/
+}
+.input{
+    margin-left: 305px;
+    width: 1200px;
+}
+
+.ma ul{
+    width: 320px;
+    float: left;
+}
+.ma ul li{
+    position: relative;
+
+    height: 100px;
+    line-height: 100px;
+}
+.sm{
+    line-height: 30px;
+}
+.sx{
+    float: left;
+}
+.st{
+    height: 100px;
+    margin-bottom: 30px;
+}
+.bz{
+    float: left;
+}
+.po{
+    left: 139px;
+    top: -145px;
+}
+.file {
+    position: relative;
+    display: inline-block;
+    background:rgba(0,0,0,.5);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    line-height: 100px;
+    opacity: 0;
+    transition: all 2s ease;
+
+}
+
+.file input {
+    position: absolute;
+    font-size: 100px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 98px;
+    height: 98px;
+}
+.rz .preview{
+    margin-left: 0;
+}
+/******************************************rz end*******************************************/
+
+.tjcg{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+    line-height: 100px;
+    border-radius: 8px;
+    color: rgba(255,255,255,.9);
+    font-size: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    display: none;
+}
+/******************************************massage end*******************************************/
+

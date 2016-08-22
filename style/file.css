@@ -1,0 +1,27 @@
+.file {
+    position: relative;
+    display: inline-block;
+    background:rgba(0,0,0,.5);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    line-height: 100px;
+    /*opacity: 0;*/
+    transition: all 2s ease;
+}
+
+.file input {
+    position: absolute;
+    font-size: 100px;
+    /*right: 0;*/
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 98px;
+    height: 98px;
+}
+.preview{
+    margin-left: -57px;
+}
